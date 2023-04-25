@@ -37,6 +37,12 @@ struct fmt
  * @fmt: The format.
  * @fm_t: The function associated.
  */
+
+int _putchar(char c);
+int _puts(char *str);
+char *_strrev(char *s);
+int _strlen(char *s);
+
 typedef struct fmt fmt_t;
 
 int _printf(const char *format, ...);
